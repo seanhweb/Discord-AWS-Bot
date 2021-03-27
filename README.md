@@ -1,5 +1,5 @@
-# Minecraft-Discord-AWS-Bot
-Discord bot that starts/stops an EC2 instance. The EC2 instance has already been preconfigured to run minecraft on launch, via [https://www.seanhweb.com/blog/minecraft-windows-automation](https://www.seanhweb.com/blog/minecraft-windows-automation).
+# Discord AWS Bot  
+Discord bot that starts/stops an EC2 instance. For my uses, the EC2 instance has already been preconfigured to run minecraft on launch, via [https://www.seanhweb.com/blog/minecraft-windows-automation](https://www.seanhweb.com/blog/minecraft-windows-automation).
 
 ## Configuration
 Add a file called config.json with the following: 
