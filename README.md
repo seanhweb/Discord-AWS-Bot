@@ -4,10 +4,12 @@ Discord bot that starts/stops an EC2 instance. For my uses, the EC2 instance has
 ## Configuration
 Add a file called config.json with the following: 
 
+```
 {
     "BOT_TOKEN": "YOUR_BOT_TOKEN",
     "INSTANCE_ID": "YOUR_INSTANCE_ID"
 }
+```
 
 Make sure this is hosted on an instance that has permissions to start/stop an EC2 instance. If on AWS, attach a role. Here's an example policy JSON. Lock it to the desired EC2 instance you want to start and stop for security reasons - this is only an example. Currently, this policy will allow the role to start/stop any instance on your account. 
 
